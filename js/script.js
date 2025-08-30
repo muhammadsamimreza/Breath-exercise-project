@@ -39,7 +39,7 @@ const stop = () => {
 
 startBtn.addEventListener("click", () => {
   if (!isRunning) {
-    userTime = 15;
+    userTime = 90;
     startTimer(userTime);
     isRunning = true;
   }
